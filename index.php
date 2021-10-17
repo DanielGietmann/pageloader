@@ -1,5 +1,6 @@
 <?php
 require_once(getcwd() . '/functions/pageloader.class.php');
+use dgpageloader\PageController;
 $GLOBALS["PageController"] = new PageController();
 
 $pc_request = $GLOBALS["PageController"]->getPageName();
